@@ -7,6 +7,13 @@ function getYoutube(){
 
 }
 
+
+function getInstagram(){
+
+    require('./models/instagramModel.php');
+
+}
+
 function main(){
 
     require ("./views/mainPage.php");
